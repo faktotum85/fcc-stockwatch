@@ -2,11 +2,9 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
-  
-  input(type="text" id="stock" name="stock")
-  button(id="addStock") Add Stock
-  
+    
   #container(style="min-width: 310px; height: 400px; margin: 0 auto")
-
-  
+    
+  .search
+    input(type="text" id="stock" name="stock")
+    button(id="addStock") Add Stock
