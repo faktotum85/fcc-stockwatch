@@ -1,5 +1,7 @@
 # Todos
 
-- Pick a library and set up chart
-- Enable users to add a stock
-- Enable users to remove a stock
+- Move fetching of the data server side and push data out via socket connection
+  - Have data cached, refreshing it every hour ?
+- Add separate legend with the option for users to remove a stock
+
+- Implement autocomplete / suggestion feature for stock symbols
